@@ -7,9 +7,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Developer Ratul",
   description: "AL SAEF RATUL · Web Developer (Frontend-React.JS) · 1+ year in Web Application Development, Coding, Programming, Testing, Data Management, Project Management.",
-  openGraph: {
-    images: 'https://i.ibb.co/6nLnzyq/ratul-bg.png',
-  },
 };
 
 export default function RootLayout({ children }) {

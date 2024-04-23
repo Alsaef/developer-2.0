@@ -43,16 +43,15 @@ const Progress = () => {
             </div>
             <progress className="progress progress-error w-56" value="75" max="100"></progress>
             </div> 
-         </div>
-{/* backend and fontend */}
-         <div>
-         <div className=' relative m-3 hover:shadow-lg hover:shadow-red-500 px-3'>
+            <div className=' relative m-3 hover:shadow-lg hover:shadow-red-500 px-3'>
             <h2 className='text-xl font-semibold'>REACT JS</h2>
             <div style={{position:"absolute", bottom:"25px",left:"195px"}}>
             <h2 className='text-xl font-semibold'>70%</h2>
             </div>
             <progress className="progress progress-error w-56" value="70" max="100"></progress>
-            </div> 
+            </div>
+         </div>
+         <div> 
          <div className=' relative m-3 hover:shadow-lg hover:shadow-red-500 px-3'>
             <h2 className='text-xl font-semibold'>Redux</h2>
             <div style={{position:"absolute", bottom:"25px",left:"195px"}}>
@@ -80,6 +79,13 @@ const Progress = () => {
             <h2 className='text-xl font-semibold'>60%</h2>
             </div>
             <progress className="progress progress-error w-56" value="60" max="100"></progress>
+            </div> 
+            <div className=' relative m-3 hover:shadow-lg hover:shadow-red-500 px-3'>
+            <h2 className='text-xl font-semibold'>Next JS</h2>
+            <div style={{position:"absolute", bottom:"25px",left:"195px"}}>
+            <h2 className='text-xl font-semibold'>40%</h2>
+            </div>
+            <progress className="progress progress-error w-56" value="40" max="100"></progress>
             </div> 
          </div>
             </section> 
